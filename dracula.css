@@ -129,6 +129,7 @@ h1 {
   margin-bottom: 1.5rem;
   /* 24px */
   letter-spacing: -1.5px;
+  color: #bd93f9;
 }
 
 h2 {
@@ -140,6 +141,7 @@ h2 {
   /* 24px */
   letter-spacing: -1px;
   font-weight: bold;
+  color: #ffb86c;
 }
 
 h3 {
@@ -151,6 +153,7 @@ h3 {
   /* 24px */
   letter-spacing: -1px;
   font-weight: bold;
+  color: #52fa7c;
 }
 
 h4 {
@@ -160,7 +163,7 @@ h4 {
   /* 22px */
   margin-bottom: 1.5rem;
   /* 24px */
-  color: white;
+  color: #f1fa8c;
 }
 
 h5 {
@@ -171,6 +174,7 @@ h5 {
   margin-bottom: 1.5rem;
   /* 24px */
   font-weight: bold;
+  color: #f1fa8c;
 }
 
 h6 {
@@ -179,7 +183,7 @@ h6 {
   line-height: 1rem;
   /* 16px */
   margin-bottom: 0.75rem;
-  color: white;
+  color: #bd93f4;
 }
 
 @media (min-width: 980px) {
@@ -465,6 +469,10 @@ td {
 .CodeMirror-gutters {
   background: transparent;
   border-right: 1px solid transparent;
+}
+
+.CodeMirror-linenumber {
+  color: #ffb86c;
 }
 
 /** quick open **/
