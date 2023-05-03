@@ -52,7 +52,8 @@
 }
 
 html {
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 14px;
 }
 
 html,
@@ -65,7 +66,8 @@ body {
 }
 
 #write {
-  max-width: 914px;
+  /* max-width: 914px; */
+  max-width: 100%;
   padding-top: 20px;
 }
 
@@ -95,7 +97,7 @@ input,
 select,
 textarea {
   font-style: normal;
-  line-height: 1.625rem;
+  /*line-height: 1.625rem;*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -340,9 +342,11 @@ var {
 }
 
 pre.md-fences {
-  padding: 10px 30px;
+  padding: 1px 30px;
   margin-bottom: 20px;
-  border: 1px solid;
+  border: 1px;
+  border-style: dashed;
+  border-radius: 8px;
 }
 
 .md-fences .code-tooltip {
@@ -467,8 +471,9 @@ td {
 }
 
 .CodeMirror-gutters {
-  background: transparent;
+  background: #22242E;
   border-right: 1px solid transparent;
+  border-radius: 8px;
 }
 
 .CodeMirror-linenumber {
@@ -955,4 +960,14 @@ footer {
   margin-left: -1.3em;
   margin-top: calc(1rem - 10px);
   -webkit-appearance: none;
+}
+
+/* Souce Code View Adaptations */
+#typora-source .CodeMirror-lines {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 30px;
+    max-width: 100%;
+    margin: 0 auto;
 }
